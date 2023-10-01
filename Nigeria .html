@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" id="major">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Independence</title>
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/640px-Flag_of_Nigeria.svg.png">
+    <link href="https://fonts.googleapis.com/css2?family=Ewert&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <style>
+        html{
+            background-color: rgba(0, 128, 0, 0.85); height: 100%; background-repeat: no-repeat; background-attachment:fixed;
+            background-image: -webkit-linear-gradient(270deg, green 30%, white 25%, white 75%, green 60%);
+        }
+		body{
+            font-family: 'Merriweather', serif; font-weight:400;
+            font-size: 28px; padding: 2px;
+		}
+        aside{
+            width: 20vw; padding: 4px; max-height: 47px; 
+        }
+		span{
+			font-family: 'Germania One', cursive;
+		}
+        aside:first-of-type{
+            border: 2px solid black; float: left;
+            position: fixed; top: 31vh; left: 5px; overflow: auto;
+        }
+        aside:last-of-type{
+            border: 2px solid black; float: right;
+            position: fixed; top: 31vh; right: 5px; overflow: auto;
+        }
+        article{
+            position: relative; max-width: 65vw; left: 22vw; top: 30vh;
+        }
+        article > div{
+            position: absolute; overflow: auto;
+        }
+        footer{
+            text-align: center; position: fixed; bottom: 5px; font-size: 3vmax;
+            left: 0px; font-family: 'Germania One', cursive;
+            background-color: darkgreen; font-weight: 900; width: 100%; line-height: 12vmin;
+        }
+
+		.main-container{
+			font-family: 'Ewert', cursive;
+
+		}
+        .container{
+            display: flex; justify-content: space-around; width: 70%;
+            text-align: center; position: fixed; top: 10px; left: 15%;
+            line-height: 90px; font-size: 90px; font-weight: 900; 
+            background-color: rgba(0, 0, 0, 0.78); animation-name: transit;
+        }
+		.together, #together{
+			text-align: center; position:fixed; background-color:lightgreen;
+			display: inline-block; width: 30%
+		}
+		.identity{		
+			text-align: center; position:fixed; background-color:lightgreen;
+			display: inline-block;
+		}
+
+        .img-container{
+            border: 2px solid black; width: 12%; height: 13vw;
+        }
+        #coat-container{
+            position: fixed; left: 5px;
+        }
+        #flag-container{
+            position: fixed; right: 5px;
+        }
+        #coat-container > img, #flag-container > img{
+            height: 100%; width: 100%;
+        }
+        #item1{
+            -webkit-animation: transit 3000ms infinite alternate;
+            animation: transit 3000ms infinite alternate;
+        }
+        #item2{
+            -webkit-animation: transit 3000ms infinite alternate 300ms;
+            animation: transit 3000ms infinite alternate 300ms;
+        }
+        #item3{
+            -webkit-animation: transit 3000ms infinite alternate 600ms;
+            animation: transit 3000ms infinite alternate 600ms;
+        }
+        #item4{
+            -webkit-animation: transit 3000ms infinite alternate 900ms;
+            animation: transit 3000ms infinite alternate 900ms;
+        }
+        #item5{
+            -webkit-animation: transit 3000ms infinite alternate 1200ms;
+            animation: transit 3000ms infinite alternate 1200ms;
+        }
+        #item6{
+            -webkit-animation: transit 3000ms infinite alternate 1500ms;
+            animation: transit 3000ms infinite alternate 1500ms;
+        }
+        #item7{
+            -webkit-animation: transit 3000ms infinite alternate 1800ms;
+            animation: transit 3000ms infinite alternate 1800ms;
+        }
+
+        @-webkit-keyframes transit {
+            0% {color: rgb(0, 128, 0); transform: translateY(-10px); text-shadow: 2px 2px 3px white, 5px 7px 6px darkgreen;}
+            10% {color: rgb(22, 139, 22); transform: translateY(-8px); text-shadow: 3px 3px 4px white, 5px 7px 6px darkgreen;}
+            20% {color: rgb(48, 146, 45); transform: translateY(-6px); text-shadow: 3px 4px 2px darkblue, 5px 5px 5px transparent;}
+            30% {color: rgb(103, 172, 100); transform: translateY(-4px); text-shadow: 5px 5px 5px transparent, 4px 5px 5px darkblue;}
+            40% {color: rgb(179, 211, 178); transform: translateY(-2px); text-shadow: 1px 1px 1px transparent, 5px 7px 6px darkgreen;}
+            50% {color: rgb(255, 255, 255); transform: translateY(0px); text-shadow: 2px 2px 1px darkblue, 1px 1px 0px darkgreen;}
+            60% {color: rgb(255, 255, 255); transform: translateY(2px); text-shadow: 0px 0px 0px lawngreen, 2px 2px 3px white;}
+            70% {color: rgb(103, 172, 100); transform: translateY(4px); text-shadow: 3px 4px 0px green, 4px 5px 5px darkblue;}
+            80% {color: rgb(48, 146, 45); transform: translateY(6px); text-shadow: 5px 5px 5px darkblue, 2px 2px 3px white;}
+            90% {color: rgb(22, 139, 22); transform: translateY(8px); text-shadow: 1px 1px 0px darkgreen, 2px 2px 3px white;}
+            100% {color: rgb(0, 128, 0); transform: translateY(10px); text-shadow: 1px 1px 0px darkgreen, 3px 3px 4px white;}
+        }
+        @keyframes transit {
+            0% {color: rgb(0, 128, 0); transform: translateY(-10px); text-shadow: 2px 2px 3px white, 5px 7px 6px darkgreen;}
+            10% {color: rgb(22, 139, 22); transform: translateY(-8px); text-shadow: 3px 3px 4px white, 5px 7px 6px darkgreen;}
+            20% {color: rgb(48, 146, 45); transform: translateY(-6px); text-shadow: 3px 4px 2px darkblue, 5px 5px 5px transparent;}
+            30% {color: rgb(103, 172, 100); transform: translateY(-4px); text-shadow: 5px 5px 5px transparent, 4px 5px 5px darkblue;}
+            40% {color: rgb(179, 211, 178); transform: translateY(-2px); text-shadow: 1px 1px 1px transparent, 5px 7px 6px darkgreen;}
+            50% {color: rgb(255, 255, 255); transform: translateY(0px); text-shadow: 2px 2px 1px darkblue, 1px 1px 0px darkgreen;}
+            60% {color: rgb(255, 255, 255); transform: translateY(2px); text-shadow: 0px 0px 0px lawngreen, 2px 2px 3px white;}
+            70% {color: rgb(103, 172, 100); transform: translateY(4px); text-shadow: 3px 4px 0px green, 4px 5px 5px darkblue;}
+            80% {color: rgb(48, 146, 45); transform: translateY(6px); text-shadow: 5px 5px 5px darkblue, 2px 2px 3px white;}
+            90% {color: rgb(22, 139, 22); transform: translateY(8px); text-shadow: 1px 1px 0px darkgreen, 2px 2px 3px white;}
+            100% {color: rgb(0, 128, 0); transform: translateY(10px); text-shadow: 1px 1px 0px darkgreen, 3px 3px 4px white;}
+        }
+
+/**The media query**/
+        @media screen and (max-width: 675px) {
+			body{
+			    font-size:18px;
+			}
+			.together, #together{
+				text-align: center; 
+			}
+            aside{
+                width: 20vw; padding: 4px; max-height: 490px; 
+            }
+            aside:first-of-type{
+                border: 2px solid black; float: left;
+                position: fixed; top: 25vh; left: 5px; overflow: auto;
+            }
+            aside:last-of-type{
+                border: 2px solid black; float: right;
+                position: fixed; top: 25vh; right: 5px; overflow: auto;
+            }
+            article{
+                position: relative; max-width: 50vw; left: 34vw; top: 25vh;
+									 
+            }
+            article > div{
+                position: absolute; overflow: auto;
+            }
+            .container{
+                font-size: 70px; line-height: 75px;
+            }
+            #major{
+                background-color: rgba(0, 128, 0, 0.85);background-repeat: no-repeat;
+                background-image: -webkit-linear-gradient(270deg, green 25%, white 25%, white 80%, green 50%);
+				font-size:18px;
+            }
+            
+        }
+        @media screen and (max-width: 545px){
+            .container{
+                font-size: 60px; line-height: 65px;
+            }
+        }
+		@media screen and (max-width: 450px) {
+			body{
+					font-size:11px;
+				}
+            }					
+            aside{
+                width: 20vw; padding: 4px; max-height: 53vh; 
+            }
+            aside:first-of-type{
+                border: 0px solid green; float: left; border-bottom: 0px;
+                position: fixed; top: 18vh; left: 0px; overflow: auto;
+            }
+            aside:last-of-type{
+                border: 0px solid green; float: right; border-bottom:0px;
+                position: fixed; top: 18vh; right: 0px; overflow: auto;
+									 
+            }
+            article{
+                position: relative; max-width: 55vw; left: 20vw; top: 19vh;
+				border: 1px solid green; 
+            }
+            article > div{
+                position: absolute; overflow: auto; padding: 0px 3px 0px 3px;
+				max-height: 53vh; border: 1px solid green; border-bottom: none; 
+            }
+       		.container{
+                display: flex; justify-content: space-around; width: 60%;
+                text-align: center; position: fixed; top: 10px; left: 20%;
+                line-height: 65px; font-size: 46px; font-weight: 900; 
+                background-color: rgba(0, 0, 0, 0.7); animation-name: transit;
+     	     }
+            #major{
+                background-color: rgba(0, 128, 0, 0.85);background-repeat: no-repeat;
+                background-image: -webkit-linear-gradient(270deg, green 20%, white 15%, white 80%, green 50%);
+				font-size:18px;
+            }
+       		.img-container{
+      		border: 2px solid black; width: 17%; height: 18vw;
+      		}
+     		#coat-container{
+   			    position: fixed; left: 5px;
+     		}
+ 			#flag-container{
+            position: fixed; right: 5px;
+    		}
+     		#coat-container > img, #flag-container > img{
+                height: 100%; width: 100%;
+   			}
+			
+		@media screen and (orientation:landscape) and (max-width: 500px){
+			body{
+				font-size:10px;
+			}
+            aside{
+                width: 20vw; padding: 4px; max-height: 53vh; 
+            }
+			.container{
+            display: flex; justify-content: space-around; width: 60%;
+            text-align: center; position: fixed; top: 10px; left: 20%;
+            line-height: 56px; font-size: 50px; font-weight: 900; 
+            background-color: rgba(0, 0, 0, 0.7); animation-name: transit;
+     	     }
+			.img-container{
+      	    border: 2px solid black; width: 17%; height: 10vw;
+      		  }
+		    article{
+            position: relative; max-width: 55vw; left: 21.5vw; top: 20vh;
+			margin-top: 3px;
+            }
+            article > div{
+                position: absolute; overflow: auto; padding: 0px 3px 0px 3px;
+				max-height: 50vh; border-bottom: none; margin-top: 3px;
+            }
+			}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="img-container" id="coat-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Coat_of_arms_of_Nigeria.svg/566px-Coat_of_arms_of_Nigeria.svg.png" alt="Coat of Arms" id="coat">
+            <!--The image above was sourced from-wikimedia.org-->
+        </div>
+        <div class="img-container" id="flag-container">
+            <img src="https://guardian-ng.cdn.ampproject.org/i/s/guardian.ng/wp-content/uploads/2016/08/1908r-640x480.jpg" alt="Nigeria Flag">
+            <!--The image above was sourced from-guardian-ng-->
+        </div>
+        <div class="main-container">
+            <div class="container">
+                <div class="item" id="item1">N</div>
+                <div class="item" id="item2">I</div>
+                <div class="item" id="item3">G</div>
+                <div class="item" id="item4">E</div>
+                <div class="item" id="item5">R</div>
+                <div class="item" id="item6">I</div>
+                <div class="item" id="item7">A</div>
+            </div>
+        </div>
+    </header>
+    <aside id="anthem">
+        <p>
+            <span class="identity"><b class="identity">NATIONAL ANTHEM</b></span><br>
+            
+            Arise, O compatriots, Nigeria's call obey <br>
+            To serve our fatherland <br>
+            With love and strength and faith <br>
+            The labour of our heroes past <br>
+            Shall never be in vain <br>
+            To serve with heart and might <br>
+            One nation bound in freedom, peace and unity. <br> <br>
+        </p>
+        <p>
+            Oh God of creation, direct our noble cause <br>
+            Guide our leader’s right <br>
+            Help our youth the truth to know <br>
+            In love and honesty to grow <br>
+            And living just and true <br>
+            Great lofty heights attain <br>
+            To build a nation where peace and justice reign. <br>
+        </p>
+    </aside>
+    <aside>
+        <p>
+            <span class="identity"><b class="identity">NATIONAL PLEDGE</b></span><br>
+            I pledge to Nigeria my Country <br>
+            To be faithful, loyal and honest <br>
+            To serve Nigeria with all my strength <br>
+            To defend her unity <br>
+            And uphold her honour and glory <br>
+            So help me God. <br>
+        </p>
+    </aside>
+    <article>
+        <div id="Briefing">
+            <span id="together"><b class="together">TOGETHER AS ONE 🇳🇬</b></span><br>
+            
+<var>
+A blessed nation clocks her birth. <br>
+A nation honored with tongues of different heritage <br>
+— Rolling off the tongue with beautiful voices; <br>
+Flowing like that of river Niger — <br>
+A nation where happiness shines, <br>
+as the stars twinkle in freedom. <br>
+Oh! watch the Niger area! <br>
+As she welcomes all into her blest home, <br>
+And embraces people into her faithful heart. <br>
+
+Oh! We've aged sixty! <br>
+Let the stars twinkle in joy! <br>
+As we celebrate, <br>
+Let the moon rise and the sun shine! <br>
+As we honor a nation, <br>
+Let the earth bow and the sky roar! <br>
+As the tide comes again, <br>
+Oh! I say, Let the water flow in praise! <br>
+As her breath comes easy, <br>
+Let the wind spread across her borders. <br>
+
+Oh! let me hymn to you, <br>
+Songs of a golden nation; <br>
+Precious land of my fathers before, <br>
+Where strength and unity reigns. <br>
+She's ageing in honor and glory <br>
+As happiness twinkle, <br>
+And the stars shine in freedom. <br>
+
+Oh! Rise to salute a nation,  <br>
+In commemoration, we are! <br>
+Come all! Come one!, <br>
+You Giants of Africa! <br>
+Come join the celebration! <br>
+As I summon six brothers. <br>
+Come forward with one accord, <br>
+And display her solidarity as one. <br>
+
+Let the drums sing; <br>
+Dance with me in riant. <br>
+As a great Nation <br>
+Spread across fertile soils, <br>
+Enriched with rich minerals. <br>
+Her shield on her national flower; <br>
+Held as one by her dignity, <br>
+Is raised high up in soar <br>
+by a falcon uplifting her strength <br>
+Oh almighty!  <br>
+Bless her from blues to blue <br>
+
+Keep soaring! <br>
+In unity and faith, <br>
+In peace and progress, <br>
+as one liberated nation; <br>
+A leader to many, <br>
+Guardian to thousands. <br>
+Sixty years in love and unity! <br>
+Shall not be spooled in diversity <br>
+For the toil of our Fathers <br>
+Shall not be made futile. <br>
+So help us, God!
+</var>
+<br><br>
+<b style="font-weight: 900;">&copy; Adesina Muhammed 🇳🇬🇳🇬</b>
+</div>
+</article>
+<footer>
+    Designed by Olanrewaju Adam
+    <p style="line-height: 0px; margin-top:0px; animation:transit 2000ms alternate infinite ">Dharmzeey</p>
+</footer>
+<script>
+    //alert("Dharmzeey wishes you \nHappy Independence Day")
+</script>
+</body>
+</html>
